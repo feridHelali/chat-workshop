@@ -1,0 +1,32 @@
+/* ChatroomHeader.css */
+
+/* Block: ChatroomHeader */
+.chatroom-header {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 20px;
+  }
+  
+  /* Element: Avatar */
+  .chatroom-header__avatar {
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-right: 10px;
+    /* Add your specific styles for the avatar */
+  }
+
+  .chatroom-header__avatar > img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+  }
+  
+  /* Element: SenderName */
+  .chatroom-header__sender-name {
+    font-weight: bold;
+    /* Add your specific styles for the sender name */
+  }

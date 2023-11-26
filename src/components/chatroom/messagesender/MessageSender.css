@@ -1,0 +1,32 @@
+/* MessageSender.css */
+
+/* Block: MessageSender */
+.message-sender {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    border-top: 1px solid #ddd;
+  }
+  
+  /* Element: Text Input */
+  .message-sender__input {
+    flex: 1;
+    padding: 8px;
+    margin-right: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    /* Add your specific styles for the text input */
+  }
+  
+  /* Element: Send Button */
+  .message-sender__button {
+    padding: 8px 16px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    /* Add your specific styles for the send button */
+  }
+  

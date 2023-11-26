@@ -1,0 +1,32 @@
+/* chatroom.css */
+
+.container {
+    width: 100%;
+    max-width: 600px; /* Adjust as needed */
+    margin: 0 auto;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(204, 204, 204, 0.493);
+  }
+  
+  /* Block: Chatroom */
+  .chatroom__header {
+  
+      /* Styles for the header */
+      background-color: #4CAF50;
+      color: white;
+      padding: 10px;
+    }
+  
+.chatroom__conversation {
+      /* Styles for the conversation area */
+      border: 1px solid #ddd;
+      padding: 10px;
+      overflow-y: auto;
+      max-height: 300px; /* Adjust as needed */
+    }
+  
+.chatroom__messagesender {
+      /* Styles for the message sender area */
+      padding: 10px;
+      border-top: 1px solid #ddd;
+    }

@@ -1,0 +1,49 @@
+/* Conversation.css */
+
+/* Block: Conversation */
+.conversation {
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    overflow-y: auto;
+    max-height: 300px; /* Adjust as needed */
+  }
+  
+  /* Element: Message */
+  .conversation__message {
+    margin-bottom: 10px;
+  }
+  
+  /* Modifier: Sent Message */
+  .conversation__message--sent {
+    align-self: flex-end;
+    background-color: #4CAF50;
+    color: white;
+    border-radius: 10px 10px 0 10px;
+  }
+  
+  /* Modifier: Received Message */
+  .conversation__message--received {
+    align-self: flex-start;
+    background-color: #ddd;
+    border-radius: 10px 10px 10px 0;
+  }
+  
+  /* Element: Avatar */
+  .conversation__avatar {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+  }
+  
+  /* Element: Message Content */
+  .conversation__message-content {
+    padding: 8px;
+  }
+  
+  /* Element: Username */
+  .conversation__username {
+    font-weight: bold;
+  }
+  
